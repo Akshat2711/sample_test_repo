@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return {
-        "message": "Server Rent Alpha working"
+        "message": "webhook testing!"
     }
 
 
